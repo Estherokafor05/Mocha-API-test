@@ -1,6 +1,6 @@
 # PaystackTest1
 
-#### This project that performs regression test on an API
+#### This project performs regression test on an API
 
 ### Pre-requiste
 1. Install node js
@@ -14,10 +14,10 @@
 3. cd into the **test** folder in the project.
 4. Run ```npm test``` .
 
-### Packages used
-1. chai (for testing)
-2. chai-json-schema (to validate the response schema of the API)
-3. mocha (run our test script)
-4. supertest (to make http calls to the server)
+# Packages used
+1. chai (used for testing)
+2. chai-json-schema (validates the response schema of the API)
+3. mocha (runs our test script)
+4. supertest (makes http calls to the server)
 
 # Thank you

@@ -1,6 +1,6 @@
 # PaystackTest1
 
-#### This project that performns regression test on an API
+#### This project that performs regression test on an API
 
 ### Pre-requiste
 1. Install node js

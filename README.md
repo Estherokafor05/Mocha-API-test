@@ -5,7 +5,7 @@
 ### Pre-requisites
 1. Install node js
 2. install npm
-3. ```npm install mocha chai supertest --save-dev```
+3. run ```npm install mocha chai supertest --save-dev```
 
 ## How To Run Test 
 1. From the main page, click on the CODE button to clone the folder to your computer OR a preferred **IDE**

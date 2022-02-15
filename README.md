@@ -1,14 +1,14 @@
 # PaystackTest1
 
-#### This project that performs regression test on an API
+#### This project performs regression test on an API
 
 ### Github Actions CI Badge
 
 [![test](https://github.com/Estherokafor05/PaystackTest1/actions/workflows/node.js.yml/badge.svg)](https://github.com/Estherokafor05/PaystackTest1/actions/workflows/node.js.yml)
 
-### Pre-requisite
-1. Install node js
-2. install npm
+### Prerequisite
+1. Install NODE js
+2. install NPM
 3. Run ```npm install mocha chai supertest --save-dev```
 
 ## How To Run Test 

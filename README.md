@@ -14,10 +14,11 @@
 3. cd into the **test** folder in the project.
 4. Run ```npm test``` .
 
-# Packages used
-1. chai (used for testing)
-2. chai-json-schema (validates the response schema of the API)
-3. mocha (runs our test script)
-4. supertest (makes http calls to the server)
+# Packages
+1. mocha (runs our test script)
+2. supertest (makes http calls to the server)
+3. chai (used for testing)
+4. chai-json-schema (validates the response schema of the API)
+
 
 # Thank you

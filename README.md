@@ -2,7 +2,7 @@
 
 #### This project performs regression test on an API
 
-### Pre-requiste
+### Pre-requisites
 1. Install node js
 2. install npm
 3. ```npm install mocha chai supertest --save-dev```

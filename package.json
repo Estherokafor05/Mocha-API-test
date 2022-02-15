@@ -1,0 +1,20 @@
+{
+  "name": "paystack",
+  "version": "1.0.0",
+  "description": "Regression test for an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 10000"
+  },
+
+  "keywords": ["test","api","mocha","chai"],
+  "author": "Esther Okafor",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^9.2.0",
+    "perf_hooks": "^0.0.1",
+    "supertest": "^6.2.2"
+}
+}

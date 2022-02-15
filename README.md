@@ -5,8 +5,7 @@
 ### Github Actions CI Badge
 
 [![test]
-(https://github.com/Estherokafor05/PaystackTest1/actions/workflows/node.js.yml/badge.svg)]
-(https://github.com/Estherokafor05/PaystackTest1/actions/workflows/node.js.yml)
+(https://github.com/Estherokafor05/PaystackTest1/actions/workflows/node.js.yml/badge.svg)](https://github.com/Estherokafor05/PaystackTest1/actions/workflows/node.js.yml)
 
 ### Pre-requisite
 1. Install node js

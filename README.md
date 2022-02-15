@@ -7,7 +7,7 @@
 [![test](https://github.com/Estherokafor05/PaystackTest1/actions/workflows/node.js.yml/badge.svg)](https://github.com/Estherokafor05/PaystackTest1/actions/workflows/node.js.yml)
 
 ### Prerequisite
-1. Install NODE js
+1. Install Node js
 2. install NPM
 3. Run ```npm install mocha chai supertest --save-dev```
 

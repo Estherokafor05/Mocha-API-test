@@ -2,7 +2,7 @@ const request = require("supertest")("https://swapi.dev/api");
 const chai = require("chai");
 const expect = require('chai').expect;
 const should = require("chai").should();
-const { performance } = require("perf_hooks");
+
 
 
 describe("GET /planets/3", function () {
@@ -39,7 +39,7 @@ it ('Verify JSON Schema Validation - type and actual values', function(){
 
 })
 
-it("Verify timeout", async function() {
+it("Verify does not exceed 3ms", async function() {
     request
     .get('/')
     this.timeout(3000);
@@ -88,17 +88,4 @@ it ('Verify unabe to post request', function() {
         });
       });
 
-      it("Verifies response time does not exceed 3s", async () => {
-        // Arrange
-        const startTime = performance.now();
-        
-        // Act
-        await request.get("/planets/3");
-        if (performance.now() - startTime > 3000) {
-          console.log("response time exceeded 3ms");
-        }
-    
-        // Assert
-        expect(performance.now() - startTime).to.be.lessThan(3000);
-      });
-    
+      

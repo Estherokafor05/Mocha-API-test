@@ -47,7 +47,7 @@ describe("GET /planets/3", function () {
         const message = {
             "name": "Automated testing",
             "Completed": true
-        
+        };
     
         request(apiBaseUrl)
             .post('/planets/3')

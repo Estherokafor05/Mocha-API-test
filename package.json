@@ -1,11 +1,11 @@
 {
-  "name": "paystack",
+  "name": "test",
   "version": "1.0.0",
   "description": "Regression test for an API",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha --recursive --timeout 10000"
-  },
+    "scripts": {
+      "test": "mocha --recursive --timeout 10000"
+    },
   "keywords": [
     "test",
     "api",
